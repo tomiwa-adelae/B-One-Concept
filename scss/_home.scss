@@ -17,7 +17,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: $white-color;
+            color: $white_color;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
@@ -35,7 +35,7 @@
     // Product section
     .products-section{
         background-color: $grey_color;
-        padding: 1rem 0 3rem 0;
+        padding: 2rem 0 5rem 0;
         
         .products{
             display: flex;
@@ -43,7 +43,7 @@
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 0.5rem;
-            margin-top: 1rem;
+            margin-top: 3rem;
 
             .product-box{
                 width: 200px;
@@ -68,6 +68,106 @@
                     color: $white_color;
                     width: 100%;
                     text-align: center;
+                }
+            }
+        }
+    }
+
+    .small-showcase-section{
+        position: relative;
+        .img{
+            position: relative;
+            height: 80vh;
+
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translate(-10%, -50%);
+            background-color: $grey_color;
+            width: 35%;
+            border-radius: $radius;
+            padding: 3rem 2rem;
+
+            h4{
+                line-height: 1.5;
+                margin: 1rem 0 2rem 0;
+            }
+        }
+    }
+
+    .icon-text-section{
+        padding: 3rem 0;
+
+        .boxes{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .box{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+            }
+        }
+    }
+
+    .customer-reviews-section{
+        background-color: $secondary_color;
+        padding: 3rem 0;
+        
+        .title{
+            color: $white_color;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .customer-reviews{
+            .contact-btn{
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .btn{
+                width: 60%;
+                display: inline-block;
+                text-align: center;
+            }
+            .review{
+                background-color: $white_color;
+                border-radius: $radius;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 2rem;
+                .img{
+                    height: 180px;
+                    width: 180px;
+                    img{
+                        height: 100%;
+                    }
+                }
+
+                .content{
+                    margin-left: 2rem;
+
+                    h4{
+                        color: $primary_color;
+                    }
+
+                    p{
+                        margin-bottom: 1rem;
+                    }
                 }
             }
         }

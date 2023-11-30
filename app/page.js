@@ -1,5 +1,9 @@
 import Link from 'next/link'
-import {FaEarListen } from 'react-icons/fa6'
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import CelebrationIcon from '@mui/icons-material/Celebration';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import HearingIcon from '@mui/icons-material/Hearing';
+
 
 const HomePage = () => {
   return (
@@ -61,23 +65,74 @@ const HomePage = () => {
       </div>
 
       {/* Smaller showcase section */}
-      <div className="small-showcase section">
-       <div className="container">
+      <div className="small-showcase-section">
           <div className="img">
-            <img src="macbook.jpg" alt="Silver Macbook laptop" />
+            <div className="trans-background"></div>
+            <img src="laptop.jpg" alt="Silver Macbook laptop" />
           </div>
           <div className="box">
-              <FaEarListen />
+            <HearingIcon />
               <h4>We deliver high quality phone and laptop accessories at your doorsteps</h4>
 
               <Link className='btn btn-primary' href='/contact'>Contact Us</Link>
           </div>
-        </div> 
       </div>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam cupiditate aspernatur sit? Quae sint commodi asperiores rem ad est officiis dicta, reprehenderit qui non illum dolor maxime perferendis maiores hic. Eos ut veritatis itaque aspernatur. Mollitia necessitatibus dignissimos corrupti blanditiis nesciunt reiciendis eius sunt officia rerum? Excepturi porro similique natus cupiditate voluptatum dicta exercitationem, necessitatibus quidem molestiae dolor consequatur reprehenderit inventore possimus nesciunt labore. Excepturi, at ex? Nostrum quae excepturi tenetur natus. Aspernatur error laudantium nesciunt ipsam obcaecati debitis dolor ratione, incidunt et quos beatae ullam voluptatibus sint perspiciatis numquam totam necessitatibus! Rem, facilis voluptate? Earum blanditiis commodi quo.
-      </p>
+    {/* Small section for icons and texts */}
+    <div className="icon-text-section">
+      <div className="container">
+        <div className="boxes">
+          <div className="box">
+              <LocationOnIcon sx={{ fontSize: 60 }} />
+              <h5>Find your products</h5>
+          </div>
+          <div className="box">
+              <LocalShippingIcon sx={{ fontSize: 60 }} />
+              <h5>Delivery & Pickup</h5>
+          </div>
+          <div className="box">
+              <CelebrationIcon sx={{ fontSize: 60 }}/>
+              <h5>Enjoy your products</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Customer reviews section */}
+    <div className="customer-reviews-section">
+      <div className="container">
+
+        <h4 className='title'>Our Customer Reviews</h4>
+        <div className="customer-reviews">
+          <div className="review">
+            <div className="img">
+              <img src="johndoe.jpg" alt="John Doe" />
+            </div>
+            <div className="content">
+              <h4>&rsquo;&rsquo;</h4>
+              <p>I love it! Their service, quality of accessories everything. Great purchase. I highly recommend to everyone</p>
+              <h4>John Doe</h4>
+            </div>
+          </div>
+          <div className="review">
+            <div className="img">
+              <img src="johndoe.jpg" alt="John Doe" />
+            </div>
+            <div className="content">
+              <h4>&rsquo;&rsquo;</h4>
+              <p>I love it! Their service, quality of accessories everything. Great purchase. I highly recommend to everyone</p>
+              <h4>John Doe</h4>
+            </div>
+          </div>
+
+<div className="contact-btn">
+
+          <Link href='/contact' className='btn btn-primary'>Get in touch with us</Link>
+</div>
+        </div>
+      </div>
+    </div>
+     
     </div>
   )
 }
