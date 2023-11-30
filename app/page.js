@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import {FaEarListen } from 'react-icons/fa6'
 
 const HomePage = () => {
   return (
@@ -57,6 +58,21 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Smaller showcase section */}
+      <div className="small-showcase section">
+       <div className="container">
+          <div className="img">
+            <img src="macbook.jpg" alt="Silver Macbook laptop" />
+          </div>
+          <div className="box">
+              <FaEarListen />
+              <h4>We deliver high quality phone and laptop accessories at your doorsteps</h4>
+
+              <Link className='btn btn-primary' href='/contact'>Contact Us</Link>
+          </div>
+        </div> 
       </div>
 
       <p>
