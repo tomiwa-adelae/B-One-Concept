@@ -1,4 +1,6 @@
-import Link from "next/link";
+export const metadata = {
+	title: "B.one Concept Services",
+};
 
 const ServicePage = () => {
 	return (
@@ -23,14 +25,19 @@ const ServicePage = () => {
 					<div className="content">
 						<h4 className="text-primary">Sales & Repairs</h4>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Voluptatibus, necessitatibus. Hic dolorem
-							perspiciatis facilis qui et, doloremque fugiat nulla
-							nam in tenetur quidem repellendus quaerat recusandae
-							soluta suscipit culpa ad maxime perferendis, vel
-							neque reiciendis quis eveniet explicabo quae. Atque,
-							accusamus dolor consectetur suscipit eos ab in? In,
-							illooluptates!
+							Welcome to our one-stop destination for sales and
+							repair solutions! At{" "}
+							<span className="text-primary">B.one Concept</span>,
+							we don't just offer top-notch products for sale; we
+							go above and beyond by providing unparalleled repair
+							services, ensuring your items remain in optimal
+							condition. Explore our extensive catalog of
+							cutting-edge electronics, durable appliances, and
+							innovative gadgets—all carefully selected to meet
+							your needs. Whether you're seeking the latest
+							smartphones, reliable home appliances, or
+							specialized tech gear, we've got you covered with
+							quality products from trusted brands.
 						</p>
 					</div>
 				</div>

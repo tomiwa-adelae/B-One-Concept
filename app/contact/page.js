@@ -1,7 +1,10 @@
-import Link from "next/link";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
+
+export const metadata = {
+	title: "Contact B.one Concept",
+};
 
 const ContactPage = () => {
 	return (
@@ -35,7 +38,14 @@ const ContactPage = () => {
 									href="mailto:b.one_concept@yahoo.com"
 								>
 									<EmailIcon
-										sx={{ fontSize: 50 }}
+										sx={{
+											fontSize: {
+												xs: 20,
+												sm: 30,
+												md: 40,
+												lg: 50,
+											},
+										}}
 										className="text-primary"
 									/>
 								</a>
@@ -52,7 +62,14 @@ const ContactPage = () => {
 							</div>
 							<div className="box">
 								<LocationOnIcon
-									sx={{ fontSize: 50 }}
+									sx={{
+										fontSize: {
+											xs: 20,
+											sm: 30,
+											md: 40,
+											lg: 50,
+										},
+									}}
 									className="text-primary"
 								/>
 								<h4>Visit us</h4>
@@ -65,7 +82,14 @@ const ContactPage = () => {
 							<div className="box">
 								<a href="tel: +234 802 848 4922">
 									<PhoneIcon
-										sx={{ fontSize: 50 }}
+										sx={{
+											fontSize: {
+												xs: 20,
+												sm: 30,
+												md: 40,
+												lg: 50,
+											},
+										}}
 										className="text-primary"
 									/>
 								</a>

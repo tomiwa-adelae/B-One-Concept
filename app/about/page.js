@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata = {
+	title: "About B.one Concept",
+};
+
 const AboutPage = () => {
 	return (
 		<div className="about-page">
@@ -29,23 +33,12 @@ const AboutPage = () => {
 								Our Purpose is higher than profit
 							</h4>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Hic perferendis exercitationem
-								numquam non corporis eligendi nemo officia velit
-								doloribus dolores ipsum porro quam est
-								reprehenderit sequi ex distinctio dolorum, fugit
-								dolor? Maiores vitae alias aliquam repellat, in,
-								quia dolorum nisi ipsum nesciunt sit dolorem hic
-								eaque unde cum explicabo, est numquam? Quos amet
-								optio facere corrupti laudantium delectus,
-								labore consequuntur provident consequatur harum.
-								Aspernatur nulla veritatis tenetur ut
-								consectetur aliquid ipsam voluptatum facere
-								repellat. Sunt, laborum veritatis nesciunt odit
-								iusto consectetur excepturi, reprehenderit iure
-								omnis molestiae quas explicabo reiciendis dicta
-								assumenda quisquam veniam modi eaque earum
-								itaque maiores provident! Suscipit!
+								B.one Concept is a retail business for affordale
+								and durable mobile phone, computers, accessories
+								and vairous types of Electronics. We do not just
+								sell electronics gadget, we provide first-class
+								after-sales support that is comparable to the
+								international standards.
 							</p>
 							<div className="contact-btn">
 								<Link

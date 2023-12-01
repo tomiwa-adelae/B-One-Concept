@@ -1,9 +1,12 @@
-import { Montserrat } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "../css/styles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const montserrat = Montserrat({ weight: ["400", "700"], subsets: ["latin"] });
+const montserrat = Nunito({
+	weight: ["400", "700"],
+	subsets: ["latin"],
+});
 
 export const metadata = {
 	title: "B.One Concept",

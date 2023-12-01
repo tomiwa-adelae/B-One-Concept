@@ -94,15 +94,42 @@ const HomePage = () => {
 				<div className="container">
 					<div className="boxes">
 						<div className="box">
-							<LocationOnIcon sx={{ fontSize: 60 }} />
+							<LocationOnIcon
+								sx={{
+									fontSize: {
+										xs: 30,
+										sm: 40,
+										md: 50,
+										lg: 60,
+									},
+								}}
+							/>
 							<h5>Find your products</h5>
 						</div>
 						<div className="box">
-							<LocalShippingIcon sx={{ fontSize: 60 }} />
+							<LocalShippingIcon
+								sx={{
+									fontSize: {
+										xs: 30,
+										sm: 40,
+										md: 50,
+										lg: 60,
+									},
+								}}
+							/>
 							<h5>Delivery & Pickup</h5>
 						</div>
 						<div className="box">
-							<CelebrationIcon sx={{ fontSize: 60 }} />
+							<CelebrationIcon
+								sx={{
+									fontSize: {
+										xs: 30,
+										sm: 40,
+										md: 50,
+										lg: 60,
+									},
+								}}
+							/>
 							<h5>Enjoy your products</h5>
 						</div>
 					</div>
@@ -126,7 +153,8 @@ const HomePage = () => {
 								<p>
 									I love it to the core. A touch of passion
 									and flawless delivery characterized the
-									service. It was an experience of satire.
+									service. It was an experience of
+									satisfaction.
 								</p>
 								<h4>Tomiwa Adelae</h4>
 							</div>

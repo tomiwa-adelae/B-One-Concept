@@ -39,6 +39,10 @@
 		color: $white_color;
 		padding: 4rem 0;
 
+		p {
+			margin: 1rem 0;
+		}
+
 		.products {
 			display: flex;
 			align-items: flex-start;

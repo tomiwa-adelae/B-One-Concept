@@ -28,6 +28,10 @@
 				width: 80%;
 				margin-bottom: 1rem;
 			}
+
+			h1 {
+				line-height: 1.1;
+			}
 		}
 	}
 
@@ -159,7 +163,8 @@
 				}
 
 				.content {
-					margin-left: 2rem;
+					width: 100%;
+					padding: 0 2rem;
 
 					h4 {
 						color: $primary_color;
