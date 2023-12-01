@@ -1,0 +1,81 @@
+.services-page {
+	.showcase-section {
+		position: relative;
+		.img {
+			position: relative;
+			height: 80vh;
+
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.intro {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	}
+
+	.sales-repairs-section {
+		background-color: $grey_color;
+		color: $black_color;
+		padding: 4rem 0;
+
+		.content {
+			text-align: center;
+
+			p {
+				margin-top: 2rem;
+			}
+		}
+	}
+
+	.products-section {
+		background-color: $secondary_color;
+		color: $white_color;
+		padding: 4rem 0;
+
+		.products {
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			gap: 1rem;
+			margin-top: 3rem;
+
+			.product-box {
+				width: 350px;
+				height: 350px;
+				position: relative;
+
+				.img {
+					height: 100%;
+					width: 100%;
+
+					.trans-background {
+						background-color: rgba(0, 0, 0, 0.1);
+					}
+
+					img {
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+
+				h5 {
+					position: absolute;
+					bottom: 2%;
+					left: 50%;
+					transform: translate(-50%, -2%);
+					color: $white_color;
+					width: 100%;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
