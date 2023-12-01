@@ -124,6 +124,22 @@ const ServicePage = () => {
 							<div className="img">
 								<div className="trans-background"></div>
 
+								<img src="./keyboard.jpg" alt="Keyboard" />
+							</div>
+							<h5>Keyboard</h5>
+						</div>
+						<div className="product-box">
+							<div className="img">
+								<div className="trans-background"></div>
+
+								<img src="./mouse.jpg" alt="Mouse" />
+							</div>
+							<h5>Mouse</h5>
+						</div>
+						<div className="product-box">
+							<div className="img">
+								<div className="trans-background"></div>
+
 								<img src="./power-bank.jpg" alt="Power Bank" />
 							</div>
 							<h5>Power Bank</h5>

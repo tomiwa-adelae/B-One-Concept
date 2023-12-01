@@ -116,21 +116,27 @@ const HomePage = () => {
 					<div className="customer-reviews">
 						<div className="review">
 							<div className="img">
-								<img src="johndoe.jpg" alt="John Doe" />
+								<img
+									src="tomiwa-adelae.jpg"
+									alt="Tomiwa Adelae"
+								/>
 							</div>
 							<div className="content">
 								<h4>&rsquo;&rsquo;</h4>
 								<p>
-									I love it! Their service, quality of
-									accessories everything. Great purchase. I
-									highly recommend to everyone
+									I love it to the core. A touch of passion
+									and flawless delivery characterized the
+									service. It was an experience of satire.
 								</p>
-								<h4>John Doe</h4>
+								<h4>Tomiwa Adelae</h4>
 							</div>
 						</div>
 						<div className="review">
 							<div className="img">
-								<img src="johndoe.jpg" alt="John Doe" />
+								<img
+									src="kimberly-siakpere.jpg"
+									alt="Kimberly Siakpere"
+								/>
 							</div>
 							<div className="content">
 								<h4>&rsquo;&rsquo;</h4>
@@ -139,7 +145,7 @@ const HomePage = () => {
 									accessories everything. Great purchase. I
 									highly recommend to everyone
 								</p>
-								<h4>John Doe</h4>
+								<h4>Kimberly Siakpere</h4>
 							</div>
 						</div>
 
