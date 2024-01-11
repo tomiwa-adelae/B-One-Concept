@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
 	return (
 		<footer>
-			Copyright &copy; 2023 B.one Concept. All rights reserved.
+			Copyright &copy; 2024 B.one Concept. All rights reserved.
 		</footer>
 	);
 };
